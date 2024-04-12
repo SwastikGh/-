@@ -1,0 +1,35 @@
+body {
+	background: linear-gradient(-45deg, red, purple, cyan, blue);
+	background-size: 400% 400%;
+	animation: gradient 4s ease infinite;
+	height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+button{
+    align-self: center;
+}
+
+
+div {
+    text-align: center;
+}
